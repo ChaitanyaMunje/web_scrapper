@@ -239,44 +239,6 @@ class _MyPageState extends State<MyPage> {
               ),
             ),
 
-            // Padding(
-            //   padding: const EdgeInsets.all(8.0),
-            //   child: Card(
-            //     color: Colors.white38,
-            //     elevation: 10,
-            //     child: Row(
-            //       children: [
-            //         Lottie.asset('images/php.json',
-            //             height: 100, width: 100),
-            //         Container(
-            //           width: 90,
-            //           child: const Padding(
-            //             padding: EdgeInsets.fromLTRB(10, 5, 0, 60),
-            //             child: Text(
-            //               "PHP Course",
-            //               textAlign: TextAlign.center,
-            //               style: TextStyle(
-            //                   fontWeight: FontWeight.bold, fontSize: 14),
-            //             ),
-            //           ),
-            //         ),
-            //         Padding(
-            //           padding: const EdgeInsets.fromLTRB(25,60,0,4),
-            //           child: ElevatedButton(
-            //               onPressed: () {
-            //                 showDialogBox("PHP");
-            //               },
-            //               child: const Text(
-            //                 "Enroll Now",
-            //                 style: TextStyle(backgroundColor: Colors.blue),
-            //               )),
-            //         ),
-            //         //TextButton(onPressed: onPressed, child: child)
-            //       ],
-            //     ),
-            //   ),
-            // ),
-
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Card(
@@ -317,76 +279,6 @@ class _MyPageState extends State<MyPage> {
               ),
             ),
 
-            // Lottie.asset('images/clanguage.json', height: 100, width: 100),
-            // const SizedBox(height: 5),
-            // const Text(
-            //   'C',
-            //   style: TextStyle(
-            //       color: Colors.black,
-            //       fontWeight: FontWeight.bold,
-            //       fontSize: 20),
-            // ),
-            // const SizedBox(height: 10),
-            //
-            // Lottie.asset('images/java.json', height: 100, width: 100),
-            // SizedBox(height: 5),
-            // Text(
-            //   'Java',
-            //   style: TextStyle(
-            //       color: Colors.black,
-            //       fontWeight: FontWeight.bold,
-            //       fontSize: 20),
-            // ),
-            // SizedBox(height: 10),
-            //
-            // Lottie.asset('images/javascript.json', height: 100, width: 100),
-            // SizedBox(height: 5),
-            // Text(
-            //   'JavaScript',
-            //   style: TextStyle(
-            //       color: Colors.black,
-            //       fontWeight: FontWeight.bold,
-            //       fontSize: 20),
-            // ),
-            // SizedBox(height: 10),
-            //
-            // Lottie.asset('images/python.json', height: 100, width: 100),
-            // SizedBox(height: 5),
-            // Text(
-            //   'Python',
-            //   style: TextStyle(
-            //       color: Colors.black,
-            //       fontWeight: FontWeight.bold,
-            //       fontSize: 20),
-            // ),
-            // SizedBox(height: 10),
-            //
-            // Lottie.asset('images/php.json', height: 100, width: 100),
-            // SizedBox(height: 5),
-            // Text(
-            //   'PHP',
-            //   style: TextStyle(
-            //       color: Colors.black,
-            //       fontWeight: FontWeight.bold,
-            //       fontSize: 20),
-            // ),
-            // SizedBox(height: 10),
-            //
-            // Lottie.asset('images/flutter.json', height: 100, width: 100),
-            // SizedBox(height: 5),
-            // Text(
-            //   'Flutter',
-            //   style: TextStyle(
-            //       color: Colors.black,
-            //       fontWeight: FontWeight.bold,
-            //       fontSize: 20),
-            // ),
-            // SizedBox(height: 10),
-
-            // Lottie.asset('images/kotlin.json',height: 100,width: 100),
-            // SizedBox(height:5),
-            // Text('Kotlin',style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 20),),
-            // SizedBox(height:10),
           ],
         ),
       ),
