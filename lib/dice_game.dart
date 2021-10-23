@@ -47,7 +47,7 @@ class _DiceState extends State<Dice> {
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(width: 10,),
+            const SizedBox(width: 10,),
             Column(
               children: [
                 ElevatedButton(
