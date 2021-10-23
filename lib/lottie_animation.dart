@@ -49,7 +49,7 @@ class _MyPageState extends State<MyPage> {
                       height: 100, width: 100),
                   Text(
                     'You have enrolled in ' + courseName,
-                    style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white),
+                    style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white,fontSize: 14),
                     textAlign: TextAlign.center,
                   ),
                   const SizedBox(
@@ -99,13 +99,13 @@ class _MyPageState extends State<MyPage> {
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 14,
+                              fontSize: 16,
                               color: Colors.white),
                         ),
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.fromLTRB(25, 60, 0, 4),
+                      padding: const EdgeInsets.fromLTRB(80, 60, 0, 4),
                       child: ElevatedButton(
                           onPressed: () {
                             showDialogBox("C Course");
@@ -138,13 +138,13 @@ class _MyPageState extends State<MyPage> {
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 14,
+                              fontSize: 16,
                               color: Colors.white),
                         ),
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.fromLTRB(25, 60, 0, 4),
+                      padding: const EdgeInsets.fromLTRB(80, 60, 0, 4),
                       child: ElevatedButton(
                           onPressed: () {
                             showDialogBox("Java Course");
@@ -178,13 +178,13 @@ class _MyPageState extends State<MyPage> {
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 14,
+                              fontSize: 16,
                               color: Colors.white),
                         ),
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.fromLTRB(25, 60, 0, 4),
+                      padding: const EdgeInsets.fromLTRB(80, 60, 0, 4),
                       child: ElevatedButton(
                           onPressed: () {
                             showDialogBox("JavaScript Course");
@@ -217,13 +217,13 @@ class _MyPageState extends State<MyPage> {
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 14,
+                              fontSize: 16,
                               color: Colors.white),
                         ),
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.fromLTRB(25, 60, 0, 4),
+                      padding: const EdgeInsets.fromLTRB(80, 60, 0, 4),
                       child: ElevatedButton(
                           onPressed: () {
                             showDialogBox("Python Course");
@@ -257,13 +257,13 @@ class _MyPageState extends State<MyPage> {
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 14,
+                              fontSize: 16,
                               color: Colors.white),
                         ),
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.fromLTRB(25, 60, 0, 4),
+                      padding: const EdgeInsets.fromLTRB(80, 60, 0, 4),
                       child: ElevatedButton(
                           onPressed: () {
                             showDialogBox("Flutter");
